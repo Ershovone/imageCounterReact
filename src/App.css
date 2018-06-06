@@ -1,0 +1,56 @@
+.App {
+  position: absolute;
+  width: 67%;
+  height: 400px;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #7f818ca6;
+}
+.button {
+  position: absolute;
+  top: 300px;
+  width: 100px;
+  height: 50px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.button-plus {
+  left: 100px;
+  left: 40%;
+  transform: translateX(-50%);
+  background-image: url(plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button-minus {
+  left: 200px;
+  left: 60%;
+  transform: translateX(-50%);
+  background-image: url(minus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image-container {
+  position: absolute;
+  top: 50px;
+  width: 90%;
+  height: 165px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow-x: scroll;
+}
+img {
+  position: relative;
+  margin: 0 10px;
+  width: 90px;
+  height: 90px;
+}
+.count {
+  position: absolute;
+  top: 225px;
+  left: 50%;
+  transform: translateX(-50%);
+  font: 55px bold;
+  color: #fff;
+}
